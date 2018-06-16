@@ -1,6 +1,6 @@
 function fcn(n){
 
-  return 2**n;
+  return Math.pow(2,n);
   
   }
   
