@@ -6,7 +6,8 @@ let finder = (str) => {
       return Object.keys(charMap)[index]
       
     } else if (!charMap[str[i]]){
-    charMap[str[i]] = 1;
+      charMap[str[i]] = 1;
+    
     } else {
       charMap[str[i]]++;
     } 
